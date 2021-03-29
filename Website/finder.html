@@ -1,39 +1,73 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/78f3ffc135.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="mainstyle.css"/>
+    <link rel="browser icon" href="image/favicon.svg" type="svg">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <meta name="description" Content="">
     <meta name="keywords" content="">
-    <title>Map</title>
+    <title>Business Locator</title>
+    
 </head>
 
 <body>
 
+
 <Header>
-    <div id="wrapper"></div>
-
+    <div id="wrapper" >
+        <img src="image/avatarPlaceholder.png" alt="avatar" class="userAvatar">
         <img src="image/Logo.png" alt="logo" class="logo">
-
+            
             <nav>
                 <ul class="main_menu">
                     <li><a href="index.html">home</a></li>
                     <li><a href="finder.html">find a business</a></li>
-                    <li><a href="review.html">Find a business</a></li>
+                    <li><a href="review.html">review a business</a></li>
                     <li><a href="#">Coming Soon</a></li>
                 </ul>
             </nav>
 
     </div>
+    <div class="searchBar">
+        <input type="text" name="box" placeholder="Search your local businesses..">
+    </div>
 </Header>
-<div id="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d38036.251615892266!2d-7.9677123744777445!3d53.42795692893369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slandscaping%20athlone!5e0!3m2!1sen!2sie!4v1616442526705!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="0" loading="lazy"></iframe>
-</div>
+
+<main>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d38036.251615892266!2d-7.9677123744777445!3d53.42795692893369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slandscaping%20athlone!5e0!3m2!1sen!2sie!4v1616442526705!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="0" loading="lazy"></iframe>
+
     </body>
+<aside>
+<style>
+    #disclaimer { 
+        border-radius: 30px;
+        padding: 5px;
+        width: 400px;
+        height: auto;
+        background-image: url('/image/disclaimer3.webp');
+        background-repeat: repeat;
+        color:teal;
+        text-align:center;
+        margin: auto;
+    }
+</style>
+<b><p id="disclaimer">DIYreviews.com will not accept liability for any malpractice on behalf of its cliental.
+We take any reports by our members seriously and any breaches of our T&C by 
+partners will be forwarded to the better business beauru and police. Memebers can
+seek legal advice if they have been subject to bad practice by our partners. 
+As a crowdsource review website we cannot be responsible for the practices of
+partners and can only moderate and review flagged businesses.
+<a href= "https://www.realhomes.com/advice/cowboy-builders" target="_blank"> Guidence: Spotting rouge traders </a></p></b>
+
+</aside>
+
+</main>
 </html>
     
