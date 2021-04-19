@@ -9,12 +9,53 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="mainstyle.css" />
     <link rel="stylesheetTwo" href="leaders.css" />
-    <link rel="browser icon" href="image/favicon.svg" type="svg" />
+    <link rel="browser icon" href="image/favicon.svg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <meta name="description" content="Reviews, articles,DIY,advice,competetive,pricing,query,user" />
     <meta name="keywords" content="reviews,ireland,england,contractors,contractor,building,diy,DIY,database" />
     <title>Review</title>
+    <style>
+               
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px;
+        box-sizing: border-box; 
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical 
+      }
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .review_container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin: 20px;
+      }
+      .fa-star{
+        cursor: pointer;
+      }
+      .fa-star:hover{
+        cursor: pointer;
+        color: orange;
+      }
+
+                  </style>
   </head>
 
   <body>
@@ -40,48 +81,9 @@
         </ul>
 
       </nav>
+    </header>
      <main>
-      <style>
-               
-        input[type=text], select, textarea {
-          width: 100%;
-          padding: 12px; 
-          border: 1px solid #ccc; 
-          border-radius: 4px;
-          box-sizing: border-box; 
-          margin-top: 6px;
-          margin-bottom: 16px;
-          resize: vertical 
-        }
-        
-        input[type=submit] {
-          background-color: #4CAF50;
-          color: white;
-          padding: 12px 20px;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-        }
-        
-        input[type=submit]:hover {
-          background-color: #45a049;
-        }
-        
-        .review_container {
-          border-radius: 5px;
-          background-color: #f2f2f2;
-          padding: 20px;
-          margin: 20px;
-        }
-        .fa-star{
-          cursor: pointer;
-        }
-        .fa-star:hover{
-          cursor: pointer;
-          color: orange;
-        }
-
-                    </style>
+      
 <section>
   <div class="review_container">
     <form action="markserver.co.uk" method ="get">
@@ -89,11 +91,11 @@
       <label for="fname">First Name</label><span class="required">*</span>
       <input type="text" id="fname" name="firstname" placeholder="Your name..">
   
-      <label for="lname">Username</label>
-      <input type="text" id="lname" name="Usename" placeholder="Your username if applicable">
+      <label for="Uname">Username</label>
+      <input type="text" id="Uname" name="Usename" placeholder="Your username if applicable">
   
-      <label for="lname">Email</label><span class="required">*</span>
-      <input type="text" id="lname" name="Email" placeholder="Your email">
+      <label for="email">Email</label><span class="required">*</span>
+      <input type="text" id="email" name="Email" placeholder="Your email">
   
       <label for="country">Country</label><span class="required">*</span>
       <select id="country" name="country">
@@ -115,7 +117,7 @@
   </div>
 </section>
      </main>
-    </header>
+    
     <footer>
       <div class="footer_wrapper" style = "background: #455a64;">
         <div class="footer_container">
@@ -130,10 +132,10 @@
           <div class="container">
               <strong>Links</strong>
               <ul>
-                  <li><a href ="https://www.bbb.org/us/in/ireland"style ="text-decoration:none;">Better Business beauru</a></li>
-                  <li><a href="https://www.citizensinformation.ie/en/justice/law_enforcement/reporting_a_crime.html#"style ="text-decoration:none;">Citizens Information</a></li>
-                  <li><a href="https://webapps.hsa.ie/Account/Login?ReturnUrl=%2f"style ="text-decoration:none;">Health & Safety</a></li>
-                  <li><a href="about.html"style ="text-decoration:none;">About</a></li>
+                  <li><a href ="https://www.bbb.org/us/in/ireland" style ="text-decoration:none;">Better Business beauru</a></li>
+                  <li><a href="https://www.citizensinformation.ie/en/justice/law_enforcement/reporting_a_crime.html#" style ="text-decoration:none;">Citizens Information</a></li>
+                  <li><a href="https://webapps.hsa.ie/Account/Login?ReturnUrl=%2f" style ="text-decoration:none;">Health & Safety</a></li>
+                  <li><a href="about.html" style ="text-decoration:none;">About</a></li>
                   <li><a href="contact.html" style ="text-decoration:none;">Contact Us</a></li>
   
               </ul>
@@ -144,14 +146,15 @@
               <li><a href="https://www.facebook.com/"><img src="image/Facebook.svg" alt="Facebook" class="SocialMedia" /></a></li>
               <li><a href="https://www.instagram.com/"><img src="image/insta.svg" alt="Instagram" class="SocialMedia" /></a></li>
               <li><a href="https://www.youtube.com/"><img src="image/Youtube.png" alt="Youtube" class="SocialMedia" /></a></li>
-              <li><a href="https://twitter.com/"></a><img src="image/Twitter.png" alt="Twitter" class="SocialMedia" /></a></li>
+              <li><a href="https://twitter.com/"><img src="image/Twitter.png" alt="Twitter" class="SocialMedia" /></a></li>
             </ul>
           </div>
           <div class="container">
             <ul>
-              <li><p>Copyright of &#169Mark Lavin </p></li>
+              <li><p>Copyright of &#169;Mark Lavin </p></li>
             </ul>
       </div>
+    </div>
     </div>
       </footer>
   </body>
