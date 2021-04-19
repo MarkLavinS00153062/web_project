@@ -1,42 +1,159 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/78f3ffc135.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mainstyle.css" />
+    <link rel="stylesheetTwo" href="leaders.css" />
+    <link rel="browser icon" href="image/favicon.svg" type="svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Reviews, articles,DIY,advice,competetive,pricing,query,user" />
+    <meta name="keywords" content="reviews,ireland,england,contractors,contractor,building,diy,DIY,database" />
+    <title>Review</title>
+  </head>
 
-<head>
-    <script src="https://kit.fontawesome.com/78f3ffc135.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="mainstyle.css"/>
-    <link rel="browser icon" href="image/favicon.svg" type="svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <meta name="description" Content="">
-    <meta name="keywords" content="">
-    <title>ReviewHome</title>
-</head>
+  <body>
+    <header>
+      <img src="image/avatarPlaceholder.png" alt="avatar" class="userAvatar" />
+      <a href="index.html"
+        ><img src="image/Logo.png" alt="logo" class="logo"
+      /></a>
 
-<body>
+      <nav style="width: 80%">
+        <ul class="main_menu">
+          <li><a href="index.html">home</a></li>
+          <li><a href="finder.html">find a business</a></li>
+          <li><a href="review.html">review a business</a></li>
+          <li><a href="sign_up.html">Join Us</a></li>
+          <li>
+            <input
+              type="text"
+              name="box"
+              placeholder="Search your local businesses.."
+            />
+          </li>
+        </ul>
 
+      </nav>
+     <main>
+      <style>
+               
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px; 
+          border: 1px solid #ccc; 
+          border-radius: 4px;
+          box-sizing: border-box; 
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical 
+        }
+        
+        input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .review_container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+          margin: 20px;
+        }
+        .fa-star{
+          cursor: pointer;
+        }
+        .fa-star:hover{
+          cursor: pointer;
+          color: orange;
+        }
 
-    <Header>
-        <div id="wrapper" >
-            <img src="image/avatarPlaceholder.png" alt="avatar" class="userAvatar">
-            <img src="image/Logo.png" alt="logo" class="logo">
-                
-                <nav>
-                    <ul class="main_menu">
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="finder.html">find a business</a></li>
-                        <li><a href="review.html">review a business</a></li>
-                        <li><a href="#">Coming Soon</a></li>
-                    </ul>
-                </nav>
-        </div>
-        <div class="searchBar">
-            <input type="text" name="box" placeholder="Search your local businesses..">
-        </div>
-    </Header>
+                    </style>
+<section>
+  <div class="review_container">
+    <form action="markserver.co.uk" method ="get">
+  
+      <label for="fname">First Name</label><span class="required">*</span>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Username</label>
+      <input type="text" id="lname" name="Usename" placeholder="Your username if applicable">
+  
+      <label for="lname">Email</label><span class="required">*</span>
+      <input type="text" id="lname" name="Email" placeholder="Your email">
+  
+      <label for="country">Country</label><span class="required">*</span>
+      <select id="country" name="country">
+        <option value="Ireland">Ireland</option>
+        <option value="England">England</option>
+      </select>
+  
+      <label for="subject">Subject</label><span class="required">*</span>
+      <textarea id="subject" name="subject" placeholder="Write a review" style="height:200px"></textarea>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
 
-    
-    </body>
-</html>
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+</section>
+     </main>
+    </header>
+    <footer>
+      <div class="footer_wrapper" style = "background: #455a64;">
+        <div class="footer_container">
+          <div class="container">
+              <strong>Contact</strong>
+              <ul>
+                  <li>20 Oak Drive, San Jose, California</li>
+                  <li>Phone</li>
+                  <li>Email</li>
+              </ul>
+          </div>
+          <div class="container">
+              <strong>Links</strong>
+              <ul>
+                  <li><a href ="https://www.bbb.org/us/in/ireland"style ="text-decoration:none;">Better Business beauru</a></li>
+                  <li><a href="https://www.citizensinformation.ie/en/justice/law_enforcement/reporting_a_crime.html#"style ="text-decoration:none;">Citizens Information</a></li>
+                  <li><a href="https://webapps.hsa.ie/Account/Login?ReturnUrl=%2f"style ="text-decoration:none;">Health & Safety</a></li>
+                  <li><a href="about.html"style ="text-decoration:none;">About</a></li>
+                  <li><a href="contact.html" style ="text-decoration:none;">Contact Us</a></li>
+  
+              </ul>
+          </div>
+          <div class="container">
+            <strong style="margin-left: 2%;">Social Media</strong>
+            <ul>
+              <li><a href="https://www.facebook.com/"><img src="image/Facebook.svg" alt="Facebook" class="SocialMedia" /></a></li>
+              <li><a href="https://www.instagram.com/"><img src="image/insta.svg" alt="Instagram" class="SocialMedia" /></a></li>
+              <li><a href="https://www.youtube.com/"><img src="image/Youtube.png" alt="Youtube" class="SocialMedia" /></a></li>
+              <li><a href="https://twitter.com/"></a><img src="image/Twitter.png" alt="Twitter" class="SocialMedia" /></a></li>
+            </ul>
+          </div>
+          <div class="container">
+            <ul>
+              <li><p>Copyright of &#169Mark Lavin </p></li>
+            </ul>
+      </div>
+    </div>
+      </footer>
+  </body>
+  </html>
     

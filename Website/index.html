@@ -1,86 +1,323 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/78f3ffc135.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
-<head>
-    <script src="https://kit.fontawesome.com/78f3ffc135.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="mainstyle.css"/>
-    <link rel="stylesheetTwo" href="leaders.css"
-    <link rel="browser icon" href="image/favicon.svg" type="svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <meta name="description" Content="">
-    <meta name="keywords" content="">
+    <link rel="stylesheet" href="mainstyle.css" />
+    <link rel="stylesheetTwo" href="leaders.css" />
+    <link rel="browser icon" href="image/favicon.svg" type="svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Reviews, articles,DIY,advice,competetive,pricing,query,user" />
+    <meta name="keywords" content="reviews,ireland,england,contractors,contractor,building,diy,DIY,database" />
     <title>Home</title>
-    
-</head>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <img src="image/avatarPlaceholder.png" alt="avatar" class="userAvatar" />
+      <a href="index.html"
+        ><img src="image/Logo.png" alt="logo" class="logo"
+      /></a>
 
-<Header>
-    <div id="wrapper" >
-        <img src="image/avatarPlaceholder.png" alt="avatar" class="userAvatar">
-       <a href="index.html"><img src="image/Logo.png" alt="logo" class="logo"></a>
-            
-            <nav>
-                <ul class="main_menu">
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="finder.html">find a business</a></li>
-                    <li><a href="review.html">review a business</a></li>
-                    <li><a href="#">Coming Soon</a></li>
-                </ul>
-            </nav>
+      <nav style="width: 80%">
+        <ul class="main_menu">
+          <li><a href="index.html">home</a></li>
+          <li><a href="finder.html">find a business</a></li>
+          <li><a href="review.html">review a business</a></li>
+          <li><a href="sign_up.html">Join Us</a></li>
+          <li>
+            <input
+              type="text"
+              name="box"
+              placeholder="Search your local businesses.."
+            />
+          </li>
+        </ul>
 
-    </div>
-    <div class="searchBar">
-        <input type="text" name="box" placeholder="Search your local businesses..">
-    </div>
-</Header>
-<main>
+      </nav>
+     
+    </header>
+    <main>
+      <div class="section">
+        <ul class="grid">
+          <li>
+            <div class="box image-1">
+              <a href="https://www.fernhill.ie/landscaping-athlone" style="text-decoration: none">
+                <h1>Landscapers</h1>
+                <strong><p>Top rated</p></strong>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="box image-2">
+              <a href="https://www.mwhire.com/" style="text-decoration: none">
+                <h1>Tool-Hire</h1>
+                <strong><p>Top rated</p></strong>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="box image-3">
+              <a href="https://www.facebook.com/DMGElectricalLtdAthlone/" style="text-decoration: none">
+                <h1>Electrian</h1>
+                <strong><p>Top rated</p></strong>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="box image-4">
+              <a href="https://www.google.com/search?q=plaster%20athlone&rlz=1C1ONGR_enIE931IE931&oq=plaster+athlone&aqs=chrome..69i57j0i10i22i30.4223j0j4&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:10&tbm=lcl&rflfq=1&num=10&rldimm=17502453304405852624&lqi=Cg9wbGFzdGVyIGF0aGxvbmVIqfezrrawgIAIWiAKB3BsYXN0ZXIQABgAGAEiD3BsYXN0ZXIgYXRobG9uZZIBFGNvbnN0cnVjdGlvbl9jb21wYW55qgEPEAEqCyIHcGxhc3RlcigA&ved=2ahUKEwihjdaEsIjwAhVXUBUIHXx4B14QvS4wBXoECAYQLw&rlst=f#rlfi=hd:;si:17502453304405852624,l,Cg9wbGFzdGVyIGF0aGxvbmVIqfezrrawgIAIWiAKB3BsYXN0ZXIQABgAGAEiD3BsYXN0ZXIgYXRobG9uZZIBFGNvbnN0cnVjdGlvbl9jb21wYW55qgEPEAEqCyIHcGxhc3RlcigA;mv:[[53.435282699999995,-7.8893888],[53.4094725,-7.9685393]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:10" style="text-decoration: none">
+                <h1>Plaster</h1>
+                <strong><p>Top rated</p></strong>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
 
-    <div>
-        <div class="section">
-            <ul class="grid">
+      <section id="section-home">
+        <style>
+          #table-heading {
+            text-align: center;
+            background-color: #B1E5F2;
+            width: fit-content;
+            padding: 5px;
+            font-family: open;
+            margin-left: 19%;
+          }
+          .client-rank {
+            font-size: 20px;
+            min-width: 450px;
+            border-collapse: collapse;
+            border: 5px rgb(240, 239, 239);
+            color: rgb(8, 8, 8);
+          }
+          .client-rank thead tr {
+            text-align: center;
+            font-weight: bold;
+          }
+          .client-rank th {
+            background-color: #B1E5F2;
+          }
+          .client-rank td {
+            padding: 10px 15px;
+          }
+          .client-rank tbody tr {
+            border-bottom: 6px rgb(0, 0, 0);
+            text-align: center;
+          }
+          .client-rank tbody tr:nth-last-of-type(even) {
+            background-color: #E8E9F3;
+          }
+          .client-rank tbody tr:nth-last-of-type(odd) {
+            background-color: #575A4B(68, 67, 67);
+          }
+          #section-home {
+            width: 100%;
+
+          }
+          #aside-home {
+            float: right;
+            width: 40%;
+          }
+        </style>
+
+        <h2 id="table-heading">Top Services Rated By You</h2>
+        <table class="client-rank" style="width: 60%">
+          <thead>
+            <tr>
+              <th>Ranking</th>
+              <th>Name</th>
+              <th>Points</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>
+                <a href="404.html" style="text-decoration:none;"
+                  >John's Joinery</a
+                >
+              </td>
+              <td>15,000</td>
+              <td>Fabricator</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <a href="404.html" style="text-decoration:none;"
+                  >McPartland Electrical</a
+                >
+              </td>
+              <td>14,400</td>
+              <td>Electrician</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>
+                <a href="404.html" style="text-decoration:none;"
+                  >North West Tool Hire</a
+                >
+              </td>
+              <td>14,350</td>
+              <td>Tool Hire</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>
+                <a href="404.html" style="text-decoration:none;"
+                  >O'Connor & Sons</a
+                >
+              </td>
+              <td>14,000</td>
+              <td>Building Contractor</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>
+                <a href="404.html" style="text-decoration:none"
+                  >Quinn Cement</a
+                >
+              </td>
+              <td>10,000</td>
+              <td>Wholesale Supplies</td>
+            </tr>
+          </tbody>
+
+          <aside id="aside-home">
+            <article id="article-home">
+              <ul class="point-agregation-table"> <!--  in a live website it would explain scoring methods/formula to derive points-->
                 <li>
-                    <div class="box image-1">
-                    <a href="404.html" style="text-decoration:none">
-                        <h1>Landscapers</h1>
-                        <strong><p>Top rated</p></strong>
-                    </a>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Autem, tempore.
                 </li>
                 <li>
-                    <div class="box image-2">
-                    <a href="404.html"style="text-decoration:none">
-                        <h1>Tool-Hire</h1>
-                        <strong><p>Top rated</p></strong>
-                    </a>
+                  Quam delectus, eveniet iure repudiandae rerum fugiat voluptate
+                  expedita eaque.
                 </li>
                 <li>
-                    <div class="box image-3">
-                    <a href="404.html" style="text-decoration:none">
-                        <h1>Electrian</h1>
-                       <strong><p>Top rated</p></strong>
-                    </a>
+                  Nostrum reprehenderit impedit aut odit quo iste deserunt,
+                  labore aperiam?
                 </li>
                 <li>
-                    <div class="box image-4">
-                    <a href="404.html" style="text-decoration:none">
-                        <h1>Plaster</h1>
-                        <strong><p>Top rated</p></strong>
-                    </a>
+                  Ad eos placeat officiis, ipsum quam labore nihil a blanditiis.
                 </li>
-            </ul>
-
+              </ul>
+            </article>
+          </aside>
+        </table>
+      </section>
+      <section id="Reasons-section" style="margin-top:30px">
+        <div id="article-image">
+        <article id="article-diy">
+          
+          <h2>Five Reasons To Choose Contractors v DIY</h2>
+          <h2>Time</h2>
+          <p>
+            No matter how you look at it, time is money. You work hard all week
+            so you can enjoy your weekends and vacations. When you do a home
+            improvement project yourself, you might not have to pay for a
+            contractor’s time — but you sacrifice your own free time instead. If
+            you’re a busy professional who looks forward to your weekends, it’s
+            important to keep in mind that nearly every construction project
+            takes longer than you think. And once you begin, you have to see it
+            through if you want to continue to enjoy your home. By hiring a
+            contractor, you’re more likely to get the job done quickly.
+          </p>
+          <h3>People of the trade</h3>
+          <p>
+            There are many construction projects where you simply need more than
+            one pair of hands. In addition, you frequently need specific tools —
+            not to mention all of the construction materials required for the
+            project. A professional contractor has a team of qualified
+            individuals that can help as needed, as well as all of the necessary
+            tools and equipment. Moreover, since contractors can purchase
+            materials wholesale, they’re more likely to get a better range of
+            choices and prices than a private homeowner will find.
+          </p>
+          <h3>Experience</h3>
+          <p>
+            Construction is not something to undertake lightly. Whether it’s
+            installing a new kitchen or adding a bedroom, it’s critical to
+            understand the ins and outs of home construction in order to
+            safeguard the integrity of the existing structure and guarantee that
+            any new construction is up to code. In contrast, if you’re a weekend
+            DIY-warrior, the chances that you possess the required knowledge and
+            skill are low. And when construction work isn’t up to code, it’s
+            deemed unsafe and you’ll likely have to have it redone again if a
+            building inspector finds out.
+          </p>
+          <h3>Licencing</h3>
+          <p>
+            Certain work, such as plumbing and electric work, needs to be
+            performed by licensed professionals. Additionally, a lot of
+            municipalities require you to have permits for certain forms of
+            construction — even if it’s your own home. Knowing exactly what
+            kinds of permits you need, as well as when you need to apply for
+            them in time for your project’s start date, is best left to the
+            professionals. And remember: If you don’t have a license, you could
+            get fined a considerable amount of money.
+          </p>
+          <h3>Warranty</h3>
+          <p>
+            When you do home improvements yourself, you don’t get a warranty.
+            That means that if the work is not done well, you have no recourse —
+            and all the time and money you invested is gone. To make matters
+            worse, a subpar construction job could even cause damage to your
+            home. In other words, the cost of not doing it right the first time
+            can be significant. One of the benefits of hiring a contractor is
+            that he or she provides a warranty, which means if something’s not
+            up to par, the responsibility for fixing it lies with the
+            contractor.
+          </p>
         </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_wrapper" style = "background: #455a64;">
+        <div class="footer_container">
+          <div class="container">
+              <strong>Contact</strong>
+              <ul>
+                  <li>20 Oak Drive, San Jose, California</li>
+                  <li>Phone</li>
+                  <li>Email</li>
+              </ul>
+          </div>
+          <div class="container">
+              <strong>Links</strong>
+              <ul>
+                  <li><a href ="https://www.bbb.org/us/in/ireland"style ="text-decoration:none;">Better Business beauru</a></li>
+                  <li><a href="https://www.citizensinformation.ie/en/justice/law_enforcement/reporting_a_crime.html#"style ="text-decoration:none;">Citizens Information</a></li>
+                  <li><a href="https://webapps.hsa.ie/Account/Login?ReturnUrl=%2f"style ="text-decoration:none;">Health & Safety</a></li>
+                  <li><a href="about.html"style ="text-decoration:none;">About</a></li>
+                  <li><a href="contact.html" style ="text-decoration:none;">Contact Us</a></li>
+  
+              </ul>
+          </div>
+          <div class="container">
+            <strong style="margin-left: 2%;">Social Media</strong>
+            <ul>
+              <li><a href="https://www.facebook.com/"><img src="image/Facebook.svg" alt="Facebook" class="SocialMedia" /></a></li>
+              <li><a href="https://www.instagram.com/"><img src="image/insta.svg" alt="Instagram" class="SocialMedia" /></a></li>
+              <li><a href="https://www.youtube.com/"><img src="image/Youtube.png" alt="Youtube" class="SocialMedia" /></a></li>
+              <li><a href="https://twitter.com/"></a><img src="image/Twitter.png" alt="Twitter" class="SocialMedia" /></a></li>
+            </ul>
+          </div>
+          <div class="container">
+            <ul>
+              <li><p>Copyright of &#169Mark Lavin </p></li>
+            </ul>
+      </div>
     </div>
-
-</main>
-
-<aside>
-
-</aside>
-    
-    </body>
-</html>
-    
-
+      </footer>
+  </body>
+  </html>
